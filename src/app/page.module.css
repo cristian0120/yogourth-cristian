@@ -61,6 +61,7 @@
   margin-left: 60%;
   margin-top: -400px;
   width: 391px;
+
 }
 
 .containerTitle {
@@ -69,4 +70,5 @@
   flex-direction: column;
   margin-top: 180px;
   margin-left: 200px;
+  
 }
