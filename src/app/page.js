@@ -1,3 +1,5 @@
+'use client';
+
 import Image from "next/image";
 import React from 'react';
 import styles from "./page.module.css";
@@ -7,7 +9,7 @@ import yogourth from "../assets/image/yogourth.png";
 
 function Button({ onClick }) {
   return (
-    <button onClick={onClick}>Click me</button>
+    <button onClick={onClick} className={styles.buttonWhatsapp}>Pide el tuyo ahora </button>
   );
 }
 
@@ -28,19 +30,17 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.background}>
         <div className={styles.containerTitle} >
-        <h1 className={styles.title}> CREAMY</h1>
+        <h1 className={styles.title}> CREMOSIDAD</h1>
         <h1 className={styles.title}> NATURAL</h1>
         </div>
         <Image src={vector} className={styles.vector} alt=" vector" />
-        <p className={styles.p}>
-        Discover why our yogurt is the best option for your diet:
-          try it now!
+        <p className={styles.description}>
+        Descubre por qué nuestro yogurt es la mejor opción para tu dieta: ¡pruébalo ahora!
         </p>
         
-  <a href={"https://api.whatsapp.com/send?phone=573116947887&text=¡Hola! me gustaría comprar este producto"}  target="_blank" className={styles.buttonWhatsapp}
-         
-        >Order yours now</a>
-         <Button onClick={redirectToWhatsApp}/>
+ 
+
+         <Button onClick={redirectToWhatsApp} />
          
         <Image src={whatsapp} className={styles.whatsapp} alt=" whatsapp" />
         <Image src={yogourth} className={styles.yogourth} alt=" yogourth" />
