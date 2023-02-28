@@ -9,7 +9,11 @@ import yogourth from "../assets/image/yogourth.png";
 
 function Button({ onClick }) {
   return (
+    <div className={styles.mainWhatsap}>
     <button onClick={onClick} className={styles.buttonWhatsapp}>Pide el tuyo ahora </button>
+ 
+    <Image src={whatsapp} className={styles.whatsapp} alt=" whatsapp" />
+    </div>
   );
 }
 
@@ -41,10 +45,10 @@ export default function Home() {
  
 
          <Button onClick={redirectToWhatsApp} />
-         
-        <Image src={whatsapp} className={styles.whatsapp} alt=" whatsapp" />
-        <Image src={yogourth} className={styles.yogourth} alt=" yogourth" />
+        
+    
       </div>
+      <Image src={yogourth} className={styles.yogourth} alt=" yogourth" />
     </main>
   );
 

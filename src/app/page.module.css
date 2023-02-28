@@ -1,32 +1,45 @@
 .main {
   display: flex;
+  background: #fffaf3;
 }
 .background {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
   width: 100vw;
   height: 100vh;
   background: #fffaf3;
+
 }
 
 .title {
-  font-weight: 700;
-  font-size: 70px;
-  color: #3f4042;
   margin-top: 0px;
   margin-bottom: 0px;
+   font-weight: 700;
+  font-size: 70px;
+  color: #3f4042; 
 }
 
 .description {
+  margin-left: 50px;
   width: 535px;
   height: 54px;
   font-family: "Avenir";
   font-weight: 400;
   color: #3f4042;
-  margin-left: 200px;
-  margin-top: 30px;
   font-size: 18px;
 }
 
+.mainWhatsap{
+  display: flex;
+  flex-direction: row;
+  background-color:#c08d5d; 
+  margin-right: 214px;
+  margin-top: 100px;
+}
 .buttonWhatsapp {
+ 
   width: 212px;
   height: 64px;
   font-weight: 400;
@@ -34,44 +47,42 @@
   background: #fffaf3;
   padding: 1px;
   border: 2px solid #c08d5d;
-  margin-left: 200px;
   color: #3f4042;
-  margin-top: 100px;
+
+
+
 }
+
+
 .whatsapp {
-  width: 20px;
-  height: 48px;
+  width: 37px;
+  height: 37px;
   font-weight: 400;
   font-size: 20px;
   background: #c08d5d;
   padding: 6px;
   border: 2px solid #c08d5d;
-  margin-left: 0px;
-  margin-bottom: -25px;
+ 
 }
 
 .vector {
+ margin-left: 30px;
   width: 515px;
   height: 9px;
-  margin-left: 200px;
-  margin-top: 20px;
+ margin-top: 15px;
 }
 
 .yogourth {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
   width: 391px;
   height: 391px;
-  margin-left: 57%;
-  margin-top: -420px;
-  width: 391px;
+margin-right: 400px;
+  margin-top: 328px;
+ 
 }
 
 .containerTitle {
   display: flex;
-  justify-content: first baseline;
+  justify-content:center;
   flex-direction: column;
-  margin-top: 180px;
-  margin-left: 200px;
+
 }
