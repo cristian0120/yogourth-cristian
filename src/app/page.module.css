@@ -3,22 +3,21 @@
   background: #fffaf3;
 }
 .background {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
   background: #fffaf3;
-
 }
 
 .title {
   margin-top: 0px;
   margin-bottom: 0px;
-   font-weight: 700;
+  font-weight: 700;
   font-size: 70px;
-  color: #3f4042; 
+  color: #3f4042;
 }
 
 .description {
@@ -31,15 +30,14 @@ flex-direction: column;
   font-size: 18px;
 }
 
-.mainWhatsap{
+.mainWhatsap {
   display: flex;
   flex-direction: row;
-  background-color:#c08d5d; 
+  background-color: #c08d5d;
   margin-right: 214px;
   margin-top: 100px;
 }
 .buttonWhatsapp {
- 
   width: 212px;
   height: 64px;
   font-weight: 400;
@@ -48,11 +46,8 @@ flex-direction: column;
   padding: 1px;
   border: 2px solid #c08d5d;
   color: #3f4042;
-
-
-
+  cursor: pointer;
 }
-
 
 .whatsapp {
   width: 37px;
@@ -62,27 +57,25 @@ flex-direction: column;
   background: #c08d5d;
   padding: 6px;
   border: 2px solid #c08d5d;
- 
+  margin-top: 5px;
 }
 
 .vector {
- margin-left: 30px;
+  margin-left: 30px;
   width: 515px;
   height: 9px;
- margin-top: 15px;
+  margin-top: 15px;
 }
 
 .yogourth {
   width: 391px;
   height: 391px;
-margin-right: 400px;
+  margin-right: 400px;
   margin-top: 328px;
- 
 }
 
 .containerTitle {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   flex-direction: column;
-
 }
